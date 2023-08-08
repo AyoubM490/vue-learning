@@ -5,11 +5,15 @@
         <title>Document</title>
         <script src="https://unpkg.com/vue@3"></script>
         <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            [v-cloak] {
+                display: none;
+            }
+        </style>
     </head>
 
     <body class="h-full grid place-items-center bg-gray-800 text-white">
-        <div id="app">
-
+        <div id="app" v-cloak>
         </div>
 
         <script type="module">
